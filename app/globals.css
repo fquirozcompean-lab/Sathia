@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-violet-deep: #6B3A8A;
+  --color-violet-mid: #9858A8;
+  --color-violet-light: #F5EEF9;
+  --color-sky: #7BBDE8;
+  --color-sky-light: #EBF5FB;
+  --color-leaf: #8AAD54;
+  --color-leaf-light: #EEF4E3;
+  --color-snow: #FAFAFA;
+  --color-snow-deep: #F3EDF9;
+  --color-snow-border: #E2D5EE;
+  --color-ink: #2A2A2C;
+  --color-ink-soft: #60507A;
+}
+
+html,
+body {
+  background: var(--color-snow);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--color-violet-mid);
+  color: white;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
