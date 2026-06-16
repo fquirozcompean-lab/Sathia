@@ -30,7 +30,6 @@ export const metadata: Metadata = {
     "InBody 270 León",
     "composición corporal León",
     "nutrióloga en línea",
-    "nutrición perinatal",
     "plan nutricional León",
     "Sathia González nutrióloga",
     "Hospital Ángeles León nutrióloga",

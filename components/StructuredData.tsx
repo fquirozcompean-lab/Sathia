@@ -45,7 +45,6 @@ export default function StructuredData() {
       { "@type": "MedicalTherapy", name: "Análisis de composición corporal InBody 230" },
       { "@type": "MedicalTherapy", name: "Plan nutricional personalizado" },
       { "@type": "MedicalTherapy", name: "Consulta de nutrición en línea" },
-      { "@type": "MedicalTherapy", name: "Nutrición perinatal y en embarazo" },
     ],
   };
 

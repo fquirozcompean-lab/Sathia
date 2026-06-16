@@ -236,7 +236,6 @@ export default function Page() {
                     <li className="flex items-center gap-2"><Leaf /> Control de peso</li>
                     <li className="flex items-center gap-2"><Leaf /> Diabetes y síndrome metabólico</li>
                     <li className="flex items-center gap-2"><Leaf /> Hipertensión y cardiopatías</li>
-                    <li className="flex items-center gap-2"><Leaf /> Nutrición en embarazo</li>
                   </ul>
                 </div>
                 <div className="p-6 bg-violet-light flex flex-col">
@@ -249,7 +248,6 @@ export default function Page() {
                     <li className="flex items-center gap-2"><Check /> Agua corporal total</li>
                     <li className="flex items-center gap-2"><Check /> Grasa visceral</li>
                     <li className="flex items-center gap-2"><Check /> Índice musculoesquelético</li>
-                    <li className="flex items-center gap-2"><Check /> Tasa metabólica basal</li>
                     <li className="flex items-center gap-2"><Check /> Segmentación por extremidades</li>
                   </ul>
                 </div>
@@ -290,10 +288,9 @@ export default function Page() {
 
               <p className="mt-4 text-ink-soft leading-7">
                 Mi enfoque es la nutrición clínica de alta complejidad: atiendo a pacientes
-                oncológicos, pacientes con necesidad de soporte de nutrición enteral o
+                oncológicos, pacientes con necesidad de soporte nutricio enteral o
                 parenteral, portadores de estoma digestivo y personas con enfermedades
-                crónicas como diabetes, hipertensión y síndrome metabólico. También acompaño
-                a mujeres durante el embarazo y la lactancia.
+                crónicas como diabetes, hipertensión y síndrome metabólico.
               </p>
 
               <div className="mt-6 grid gap-3">
@@ -367,7 +364,7 @@ export default function Page() {
             />
             <ServiceCard
               title="Análisis InBody 230"
-              description="Medición de composición corporal por bioimpedancia: masa muscular, grasa, agua, grasa visceral y tasa metabólica basal."
+              description="Medición de composición corporal por bioimpedancia: masa muscular, grasa, agua, grasa visceral e índice musculoesquelético."
               icon="📊"
               highlight
             />
@@ -378,7 +375,7 @@ export default function Page() {
             />
             <ServiceCard
               title="Nutrición enteral y parenteral"
-              description="Diseño y supervisión de planes de nutrición artificial para pacientes hospitalizados o en atención domiciliaria."
+              description="Diseño y supervisión de planes de soporte nutricio para pacientes hospitalizados o en atención domiciliaria."
               icon="💉"
             />
             <ServiceCard
@@ -388,13 +385,8 @@ export default function Page() {
             />
             <ServiceCard
               title="Plan nutricional personalizado"
-              description="Diseñado con base en resultados InBody, diagnóstico clínico, comorbilidades y estilo de vida del paciente."
+              description="Diseñado con base a evaluación nutricional exhaustiva (composición corporal con InBody, estudios de laboratorio, diagnóstico clínico, comorbilidades y estilo de vida del paciente)."
               icon="📋"
-            />
-            <ServiceCard
-              title="Nutrición en embarazo y lactancia"
-              description="Acompañamiento nutricional durante el embarazo, posparto y lactancia con formación en nutrición perinatal."
-              icon="🤰"
             />
             <ServiceCard
               title="Seguimiento y monitoreo"
@@ -516,7 +508,7 @@ export default function Page() {
                       {
                         icon: "🎗️",
                         title: "En oncología",
-                        text: "La sarcopenia (pérdida de músculo) afecta la tolerancia al tratamiento y el pronóstico. El InBody 230 la detecta antes de que sea visible.",
+                        text: "La disminución de la masa muscular afecta la tolerancia al tratamiento y el pronóstico. El InBody 230 la detecta antes de que sea visible.",
                       },
                       {
                         icon: "💉",
