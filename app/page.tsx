@@ -1011,11 +1011,6 @@ function ServiceCard({
         {title}
       </h3>
       <p className="mt-2 text-sm text-ink-soft">{description}</p>
-      {highlight && (
-        <span className="mt-3 inline-block text-xs font-semibold text-sky border border-sky/30 rounded-full px-2 py-0.5">
-          Diferenciador clave
-        </span>
-      )}
     </article>
   );
 }
